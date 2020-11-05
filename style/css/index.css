@@ -1,0 +1,153 @@
+/*头部开始*/
+.header{
+    height: 60px;
+    line-height: 60px;
+}
+.menu{
+    float: left;
+}
+.other{
+    float: right;
+}
+a{
+    color: #222222;
+    font-size: 13px;
+    /*去除下划线*/
+    text-decoration: none;
+}
+.header a{
+    margin: 0 13px;
+}
+.other a:first-of-type{
+    color: #f63051;
+}
+a:hover{
+    color: #315efd;
+}
+.other a:first-of-type:hover {
+    color: #315efd;
+}
+.login{
+    background-color: #4e71f2;
+    padding: 0 10px;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    /*设置圆角*/
+    border-radius: 5px;
+
+}
+.login:hover{
+    color: white;
+}
+/*头部结束*/
+
+/*主内容开始*/
+.main{
+    /*让一个宽度固定的div水平居中：margin：0 auto*/
+    margin: 0 auto;
+    width: 700px;
+    height: 300px;
+
+    clear: both;
+    /*内容对齐方式：水平居中*/
+    text-align: center;
+}
+.main img{
+    margin-bottom: 10px;
+}
+
+.main input[type=text]{
+    width: 530px;
+    height: 40px;
+    border: 2px solid #4e71f2;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    /*去除浏览器自带的外框*/
+    outline: none;
+    /*多个（行内块级元素）之间可以设置垂直方向对齐多方式*/
+    vertical-align: middle;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.main input[type=button]{
+    width: 120px;
+    height: 44px;
+    background-color: #4e71f2;
+    border: none;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    outline: none;
+    vertical-align: middle;
+    font-size: 17px;
+}
+.baidu-hot{
+    text-align: initial;
+    padding: 5px;
+    margin-top: 30px;
+}
+.news{
+    /*css flex布局*/
+    display: flex;
+    margin-top: 15px;
+
+}
+.news div{
+    flex:1;
+    height:30px;
+}
+.news a{
+    display: block;
+    margin: 12px 0;
+    font-size: 13.5px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.icon1{
+    color: white;
+    background: url("../images/icon1.png");
+}
+.icon2{
+    color: white;
+    background: url("../images/icon2.png");
+}
+.icon3{
+    color: white;
+    background: url("../images/icon3.png");
+}
+.iconhot{
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    display: inline-block;
+    text-align: center;
+    background: url("../images/iconhot.png");
+    color: white;
+    vertical-align: middle;
+}
+.iconmorehot{
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    display: inline-block;
+    text-align: center;
+    background: url("../images/iconmorehot.png");
+    color: white;
+    vertical-align: middle;
+}
+.news span{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.news div:last-of-type{
+    padding-left: 120px;
+}
